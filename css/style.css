@@ -33,6 +33,24 @@ body {
     min-height:100%;
 
 }
+.next-page{
+
+    border: 1px solid #000000;
+    text-decoration: none;
+    margin: 5px;
+    padding: 9px;
+    display: inline-block;
+    color: #000;
+}
+.next-page a{
+    font-family: "BrandonGrotesque";
+}
+.next-page:hover{
+    color: red;
+    background: #9acfea;
+    background: linear-gradient(to top,  rgb(247, 247, 234), rgb(154, 207, 234));
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
 .stat-window{
     width: 1170px;
     height: 1412px;
@@ -61,11 +79,11 @@ body {
     text-align: end;
 }
 #chartdiv1{
-     width:100%;
-     height: 400px;
-     background-color: #FFFFFF;
+    width:100%;
+    height: 400px;
+    background-color: #FFFFFF;
 
- }
+}
 #chartdiv2{
     width:100%;
     height: 400px;
