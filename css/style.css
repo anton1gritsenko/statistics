@@ -24,7 +24,7 @@ a:hover {
 
 body {
     font-size: 14px;
-    background:url("../img/bg.png") no-repeat;
+    background:url("../img/bg.png");
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
@@ -53,7 +53,7 @@ body {
 }
 .stat-window{
     width: 1170px;
-    height: 1412px;
+    height: 3105px;
     box-shadow: -2px 2px 74px rgba(0, 0, 0, 0.38);
     border-radius: 20px;
     background-color: #ffffff;
